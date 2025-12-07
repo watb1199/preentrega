@@ -86,6 +86,15 @@ main{
     display: flex;
     justify-content: center;
 }
+.banner-header-computadoras img{
+    width: 95%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.banner-header-computadoras{
+    display: flex;
+    justify-content: center;
+}
 /* footer */
 footer{
     background-color: #3d3d3d;
