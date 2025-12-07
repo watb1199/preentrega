@@ -110,7 +110,7 @@ footer{
     justify-content: center;
     gap: 5rem;
     margin-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 .footer-logos img{
     width: 2.5rem;
@@ -143,6 +143,6 @@ footer{
     .footer-enlaces{
         flex-direction: column;
         text-align: center;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 }
