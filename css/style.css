@@ -9,7 +9,7 @@ header{
     background-color: #000000;
 }
 .color-custom{
-    background-color: #3d3d3d;
+    background-color: #4949495b;
 }
 h1{
     text-align: center;
@@ -77,6 +77,9 @@ main{
     padding-bottom: 2rem;
     flex-wrap: wrap;
 }
+
+/* Main Computadoras */
+
 .main-contenedores-computadoras{
     text-align: center;
     width: 20%;
@@ -105,6 +108,15 @@ main{
 .main-contenedores-computadoras h4{
     color: #ffffff;
 }
+.main-contenedores-computadoras-completo{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
 .banner-header img{
     width: 95%;
     padding-bottom: 1rem;
