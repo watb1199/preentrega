@@ -77,6 +77,34 @@ main{
     padding-bottom: 2rem;
     flex-wrap: wrap;
 }
+.main-contenedores-computadoras{
+    text-align: center;
+    width: 20%;
+    background-color: #9c9c9c3d;
+    border-radius: 1rem;
+}
+.main-contenedores-computadoras a{
+    background-color: #009b08;
+    color: #ffffff;
+    padding: 0.5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.main-contenedores-computadoras img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.main-contenedores-computadoras h3{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: medium;
+}
+.main-contenedores-computadoras h4{
+    color: #ffffff;
+}
 .banner-header img{
     width: 95%;
     padding-bottom: 1rem;
