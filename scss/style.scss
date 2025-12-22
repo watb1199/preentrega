@@ -1,45 +1,54 @@
-*{
+* {
     font-family: "Lato", sans-serif !important;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-header{
+
+header {
     background-color: #000000;
 }
-.color-custom{
+
+.color-custom {
     background-color: #4949495b;
 }
-h1{
+
+h1 {
     text-align: center;
     text-decoration: underline;
     background-color: #000000;
     color: #ffffff;
     margin: 0;
 }
-h2{
+
+h2 {
     color: #ffffff;
     padding-left: 1rem;
 }
-main{
+
+/* Main index */
+main {
     background-color: #000000;
 }
-.main-navegador{
+
+.main-navegador {
     display: flex;
     justify-content: center;
     gap: 5rem;
     flex-wrap: wrap;
-}
-.main-navegador a{
-    background-color: #5555554f;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    color: #ffffff;
-    margin-top: 1rem;
+
+    a {
+        background-color: #5555554f;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+    }
 }
 
-.main-contenedores-completos{
+.main-contenedores-completos {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -47,120 +56,138 @@ main{
     padding-bottom: 2rem;
     flex-wrap: wrap;
 
-    .main-contenedores{
-    text-align: center;
-    width: 20%;
-    background-color: #9c9c9c3d;
-    border-radius: 1rem;
-    a{
-    background-color: #009b08;
-    color: #ffffff;
-    padding: 0.5rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-    }
-    img{
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    }
-    h5{
-    color: #ffffff;
-    }
-    h4{
-    color: #ffffff3d;
-    text-decoration: line-through;
-    }
-    h3{
-    color: #ffffff;
-    }
+    .main-contenedores {
+        text-align: center;
+        width: 20%;
+        background-color: #9c9c9c3d;
+        border-radius: 1rem;
+
+        a {
+            background-color: #009b08;
+            color: #ffffff;
+            padding: 0.5rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        h5 {
+            color: #ffffff;
+        }
+
+        h4 {
+            color: #ffffff3d;
+            text-decoration: line-through;
+        }
+
+        h3 {
+            color: #ffffff;
+        }
     }
 }
 
 /* Main Computadoras */
 
-.main-contenedores-computadoras{
-    text-align: center;
-    width: 20%;
-    background-color: #9c9c9c3d;
-    border-radius: 1rem;
-    overflow: hidden;
-    padding-bottom: 1rem;
-}
-.main-contenedores-computadoras a{
-    background-color: #009b08;
-    color: #ffffff;
-    padding: 0.5rem;
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    border-radius: 0.5rem;
-}
-.main-contenedores-computadoras img{
-    width: 100%;
-    height: 180px;          
-    object-fit: contain;    
-    background-color: #00000086;
-}
-.main-contenedores-computadoras h3{
-    color: #ffffff;
-    font-weight: 300;
-    font-size: 0.85rem;
-    padding: 0 0.5rem;
-    padding-top: 0.5rem;
-}
-.main-contenedores-computadoras h4{
-    color: #ffffff;
-    font-size: 1rem;
-}
-.main-contenedores-computadoras-completo{
+.main-contenedores-computadoras-completo {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     padding-bottom: 2rem;
     flex-wrap: wrap;
+
+    .main-contenedores-computadoras {
+        text-align: center;
+        width: 20%;
+        background-color: #9c9c9c3d;
+        border-radius: 1rem;
+        overflow: hidden;
+        padding-bottom: 1rem;
+
+        a {
+            background-color: #009b08;
+            color: #ffffff;
+            padding: 0.5rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            background-color: #00000086;
+        }
+
+        h3 {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 0.85rem;
+            padding: 0 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        h4 {
+            color: #ffffff;
+            font-size: 1rem;
+        }
+    }
 }
 
-.banner-header img{
-    width: 95%;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
-.banner-header{
+.banner-header {
     display: flex;
     justify-content: center;
+
+    img {
+        width: 95%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
 }
-.banner-header-computadoras img{
-    width: 95%;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-}
-.banner-header-computadoras{
+
+.banner-header-computadoras {
     display: flex;
     justify-content: center;
+
+    img {
+        width: 95%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
 }
+
 /* footer */
-footer{
+footer {
     background-color: #3d3d3d;
 }
-.footer-enlaces a{
+
+.footer-enlaces a {
     color: #ffffff;
     background-color: #00000065;
     padding: 0.5rem;
     border-radius: 1rem;
 }
-.footer-enlaces{
+
+.footer-enlaces {
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
 }
-.footer-logos img{
+
+.footer-logos img {
     width: 2.5rem;
 }
-.footer-logos{
+
+.footer-logos {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
@@ -169,36 +196,48 @@ footer{
 
 /* Media queries */
 
-@media (max-width: 768px){
-    .main-navegador{
+@media (max-width: 768px) {
+    .main-navegador {
         gap: 1rem;
+
+        a,
+        button {
+            width: 90%;
+            text-align: center;
+        }
     }
 
-    .main-navegador a,
-    .main-navegador button {
-        width: 90%;
-        text-align: center;
-    }
+
 
     .main-contenedores-completos {
+        gap: 1rem;
+        padding: 1rem;
+
         .main-contenedores {
             width: 45%;
         }
     }
-    .main-contenedores-completos,
-    .main-contenedores-computadoras-completo{
+
+    .main-contenedores-computadoras-completo {
         gap: 1rem;
         padding: 1rem;
+
+        .main-contenedores-computadoras {
+            width: 45%;
+
+            img {
+                height: 200px;
+                object-fit: contain;
+            }
+        }
     }
-    .footer-enlaces{
+
+    .footer-enlaces {
         flex-direction: column;
         text-align: center;
         gap: 1.5rem;
     }
-    .main-contenedores-computadoras img{
-        height: 200px;
-        object-fit: contain;
-    }
+
     .opiniones-contenedor {
         flex-direction: column;
         align-items: center;

@@ -28,6 +28,7 @@ h2 {
   padding-left: 1rem;
 }
 
+/* Main index */
 main {
   background-color: #000000;
 }
@@ -38,7 +39,6 @@ main {
   gap: 5rem;
   flex-wrap: wrap;
 }
-
 .main-navegador a {
   background-color: rgba(85, 85, 85, 0.3098039216);
   padding: 1rem;
@@ -87,44 +87,6 @@ main {
 }
 
 /* Main Computadoras */
-.main-contenedores-computadoras {
-  text-align: center;
-  width: 20%;
-  background-color: rgba(156, 156, 156, 0.2392156863);
-  border-radius: 1rem;
-  overflow: hidden;
-  padding-bottom: 1rem;
-}
-
-.main-contenedores-computadoras a {
-  background-color: #009b08;
-  color: #ffffff;
-  padding: 0.5rem;
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-}
-
-.main-contenedores-computadoras img {
-  width: 100%;
-  height: 180px;
-  object-fit: contain;
-  background-color: rgba(0, 0, 0, 0.5254901961);
-}
-
-.main-contenedores-computadoras h3 {
-  color: #ffffff;
-  font-weight: 300;
-  font-size: 0.85rem;
-  padding: 0 0.5rem;
-  padding-top: 0.5rem;
-}
-
-.main-contenedores-computadoras h4 {
-  color: #ffffff;
-  font-size: 1rem;
-}
-
 .main-contenedores-computadoras-completo {
   display: flex;
   justify-content: center;
@@ -132,19 +94,45 @@ main {
   padding-bottom: 2rem;
   flex-wrap: wrap;
 }
-
-.banner-header img {
-  width: 95%;
+.main-contenedores-computadoras-completo .main-contenedores-computadoras {
+  text-align: center;
+  width: 20%;
+  background-color: rgba(156, 156, 156, 0.2392156863);
+  border-radius: 1rem;
+  overflow: hidden;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+}
+.main-contenedores-computadoras-completo .main-contenedores-computadoras a {
+  background-color: #009b08;
+  color: #ffffff;
+  padding: 0.5rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.main-contenedores-computadoras-completo .main-contenedores-computadoras img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  background-color: rgba(0, 0, 0, 0.5254901961);
+}
+.main-contenedores-computadoras-completo .main-contenedores-computadoras h3 {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 0.85rem;
+  padding: 0 0.5rem;
+  padding-top: 0.5rem;
+}
+.main-contenedores-computadoras-completo .main-contenedores-computadoras h4 {
+  color: #ffffff;
+  font-size: 1rem;
 }
 
 .banner-header {
   display: flex;
   justify-content: center;
 }
-
-.banner-header-computadoras img {
+.banner-header img {
   width: 95%;
   padding-bottom: 1rem;
   padding-top: 1rem;
@@ -153,6 +141,11 @@ main {
 .banner-header-computadoras {
   display: flex;
   justify-content: center;
+}
+.banner-header-computadoras img {
+  width: 95%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 /* footer */
@@ -196,22 +189,28 @@ footer {
     width: 90%;
     text-align: center;
   }
+  .main-contenedores-completos {
+    gap: 1rem;
+    padding: 1rem;
+  }
   .main-contenedores-completos .main-contenedores {
     width: 45%;
   }
-  .main-contenedores-completos,
   .main-contenedores-computadoras-completo {
     gap: 1rem;
     padding: 1rem;
+  }
+  .main-contenedores-computadoras-completo .main-contenedores-computadoras {
+    width: 45%;
+  }
+  .main-contenedores-computadoras-completo .main-contenedores-computadoras img {
+    height: 200px;
+    object-fit: contain;
   }
   .footer-enlaces {
     flex-direction: column;
     text-align: center;
     gap: 1.5rem;
-  }
-  .main-contenedores-computadoras img {
-    height: 200px;
-    object-fit: contain;
   }
   .opiniones-contenedor {
     flex-direction: column;
