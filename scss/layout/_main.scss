@@ -1,0 +1,112 @@
+/* Main index y ofertas*/
+main {
+    background-color: #000000;
+}
+
+.main-navegador {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+
+    a {
+        background-color: #5555554f;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: #ffffff;
+        margin-top: 1rem;
+    }
+}
+
+.main-contenedores-completos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+
+    .main-contenedores {
+        text-align: center;
+        width: 20%;
+        background-color: #9c9c9c3d;
+        border-radius: 1rem;
+
+        a {
+            background-color: #009b08;
+            color: #ffffff;
+            padding: 0.5rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        h5 {
+            color: #ffffff;
+        }
+
+        h4 {
+            color: #ffffff3d;
+            text-decoration: line-through;
+        }
+
+        h3 {
+            color: #ffffff;
+        }
+    }
+}
+
+/* Main Computadoras */
+
+.main-contenedores-computadoras-completo {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+
+    .main-contenedores-computadoras {
+        text-align: center;
+        width: 20%;
+        background-color: #9c9c9c3d;
+        border-radius: 1rem;
+        overflow: hidden;
+        padding-bottom: 1rem;
+
+        a {
+            background-color: #009b08;
+            color: #ffffff;
+            padding: 0.5rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+        }
+
+        img {
+            width: 100%;
+            height: 180px;
+            object-fit: contain;
+            background-color: #00000086;
+        }
+
+        h3 {
+            color: #ffffff;
+            font-weight: 300;
+            font-size: 0.85rem;
+            padding: 0 0.5rem;
+            padding-top: 0.5rem;
+        }
+
+        h4 {
+            color: #ffffff;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+header {
+    background-color: #000000;
+}
+
+.banner-header {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 95%;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+}

@@ -1,35 +1,46 @@
-* {
-  font-family: "Lato", sans-serif !important;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 header {
   background-color: #000000;
 }
 
-.color-custom {
-  background-color: rgba(73, 73, 73, 0.3568627451);
+.banner-header {
+  display: flex;
+  justify-content: center;
 }
-
-h1 {
-  text-align: center;
-  text-decoration: underline;
-  background-color: #000000;
-  color: #ffffff;
-  margin: 0;
+.banner-header img {
+  width: 95%;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
-h2 {
+footer {
+  background-color: #3d3d3d;
+}
+
+.footer-enlaces {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+.footer-enlaces a {
   color: #ffffff;
-  padding-left: 1rem;
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
-/* Main index */
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.footer-logos img {
+  width: 2.5rem;
+}
+
+/* Main index y ofertas*/
 main {
   background-color: #000000;
 }
@@ -129,53 +140,31 @@ main {
   font-size: 1rem;
 }
 
-.banner-header {
-  display: flex;
-  justify-content: center;
-}
-.banner-header img {
-  width: 95%;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+* {
+  font-family: "Lato", sans-serif !important;
+  list-style: none;
 }
 
-.banner-header-computadoras {
-  display: flex;
-  justify-content: center;
-}
-.banner-header-computadoras img {
-  width: 95%;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+a {
+  text-decoration: none;
 }
 
-/* footer */
-footer {
-  background-color: #3d3d3d;
+.color-custom {
+  background-color: rgba(73, 73, 73, 0.3568627451);
 }
 
-.footer-enlaces {
-  display: flex;
-  justify-content: center;
-  gap: 5rem;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-}
-.footer-enlaces a {
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #000000;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.3960784314);
-  padding: 0.5rem;
-  border-radius: 1rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
-.footer-logos {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-.footer-logos img {
-  width: 2.5rem;
+h2 {
+  color: #ffffff;
+  padding-left: 1rem;
 }
 
 /* Media queries */
