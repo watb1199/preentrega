@@ -21,6 +21,7 @@ h1 {
   background-color: #000000;
   color: #ffffff;
   margin: 0;
+  padding-bottom: 1rem;
 }
 
 h2 {
@@ -153,13 +154,6 @@ footer {
   background-color: #3d3d3d;
 }
 
-.footer-enlaces a {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.3960784314);
-  padding: 0.5rem;
-  border-radius: 1rem;
-}
-
 .footer-enlaces {
   display: flex;
   justify-content: center;
@@ -167,9 +161,11 @@ footer {
   margin-bottom: 1rem;
   padding-top: 1rem;
 }
-
-.footer-logos img {
-  width: 2.5rem;
+.footer-enlaces a {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.3960784314);
+  padding: 0.5rem;
+  border-radius: 1rem;
 }
 
 .footer-logos {
@@ -177,6 +173,9 @@ footer {
   justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
+}
+.footer-logos img {
+  width: 2.5rem;
 }
 
 /* Media queries */
