@@ -2,10 +2,6 @@ header {
   background-color: #000000;
 }
 
-.banner-header {
-  display: flex;
-  justify-content: center;
-}
 .banner-header img {
   width: 95%;
   padding-bottom: 1rem;
@@ -17,8 +13,6 @@ footer {
 }
 
 .footer-enlaces {
-  display: flex;
-  justify-content: center;
   gap: 5rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -31,8 +25,6 @@ footer {
 }
 
 .footer-logos {
-  display: flex;
-  justify-content: center;
   gap: 1.5rem;
   margin-top: 1rem;
 }
@@ -46,8 +38,6 @@ main {
 }
 
 .main-navegador {
-  display: flex;
-  justify-content: center;
   gap: 5rem;
   flex-wrap: wrap;
 }
@@ -60,8 +50,6 @@ main {
 }
 
 .main-contenedores-completos {
-  display: flex;
-  justify-content: center;
   gap: 2rem;
   border-radius: 1rem;
   padding-bottom: 2rem;
@@ -94,14 +82,8 @@ main {
   color: rgba(255, 255, 255, 0.2392156863);
   text-decoration: line-through;
 }
-.main-contenedores-completos .main-contenedores h3 {
-  color: #ffffff;
-}
-
 /* Main Computadoras */
 .main-contenedores-computadoras-completo {
-  display: flex;
-  justify-content: center;
   gap: 1.5rem;
   padding-bottom: 2rem;
   flex-wrap: wrap;
@@ -128,16 +110,22 @@ main {
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.5254901961);
 }
-.main-contenedores-computadoras-completo .main-contenedores-computadoras h3 {
+.main-contenedores-computadoras-completo .main-contenedores-computadoras h4 {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.banner-header, .footer-enlaces, .footer-logos, .main-navegador, .main-contenedores-completos, .main-contenedores-computadoras-completo {
+  display: flex;
+  justify-content: center;
+}
+
+.main-contenedores-completos .main-contenedores h3, .main-contenedores-computadoras-completo .main-contenedores-computadoras h3 {
   color: #ffffff;
   font-weight: 300;
   font-size: 0.85rem;
   padding: 0 0.5rem;
   padding-top: 0.5rem;
-}
-.main-contenedores-computadoras-completo .main-contenedores-computadoras h4 {
-  color: #ffffff;
-  font-size: 1rem;
 }
 
 * {
