@@ -128,34 +128,6 @@ main {
   padding-top: 0.5rem;
 }
 
-* {
-  font-family: "Lato", sans-serif !important;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.color-custom {
-  background-color: rgba(73, 73, 73, 0.3568627451);
-}
-
-h1 {
-  text-align: center;
-  text-decoration: underline;
-  background-color: #000000;
-  color: #ffffff;
-  margin: 0;
-  padding-bottom: 1rem;
-}
-
-h2 {
-  color: #ffffff;
-  padding-left: 1rem;
-}
-
-/* Media queries */
 @media (max-width: 768px) {
   .main-navegador {
     gap: 1rem;
@@ -198,5 +170,37 @@ h2 {
     max-width: 22rem;
   }
 }
+* {
+  font-family: "Lato", sans-serif !important;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-custom {
+  background-color: rgba(73, 73, 73, 0.3568627451);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  color: #ffffff;
+  padding-left: 1rem;
+}
+
+.hamburguesa {
+  background-color: #ffffff;
+}
+
+/* Media queries */
 
 /*# sourceMappingURL=style.css.map */

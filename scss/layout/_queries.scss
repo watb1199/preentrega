@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .main-navegador {
+        gap: 1rem;
+
+        a,
+        button {
+            width: 90%;
+            text-align: center;
+        }
+    }
+
+
+
+    .main-contenedores-completos {
+        gap: 1rem;
+        padding: 1rem;
+
+        .main-contenedores {
+            width: 45%;
+        }
+    }
+
+    .main-contenedores-computadoras-completo {
+        gap: 1rem;
+        padding: 1rem;
+
+        .main-contenedores-computadoras {
+            width: 45%;
+
+            img {
+                height: 200px;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .footer-enlaces {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .opiniones-contenedor {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .opiniones-contenedor .card {
+        width: 90%;
+        max-width: 22rem;
+    }
+}
