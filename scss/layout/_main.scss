@@ -44,6 +44,8 @@ main {
             object-fit: cover;
             border-top-left-radius: 1rem;
             border-top-right-radius: 1rem;
+            border: 0.313rem solid #00ff3c;
+            border-radius: 1rem;
         }
 
         h5 {
@@ -91,6 +93,8 @@ main {
             height: 180px;
             object-fit: contain;
             background-color: #00000086;
+            border: 0.25rem solid #00ff3c;
+            border-radius: 1rem;
         }
 
         h3 {

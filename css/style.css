@@ -8,6 +8,10 @@ header {
   padding-top: 1rem;
 }
 
+.carousel img {
+  border: 0.313rem solid #00ff3c;
+}
+
 footer {
   background-color: #3d3d3d;
 }
@@ -74,6 +78,8 @@ main {
   object-fit: cover;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+  border: 0.313rem solid #00ff3c;
+  border-radius: 1rem;
 }
 .main-contenedores-completos .main-contenedores h5 {
   color: #ffffff;
@@ -109,6 +115,8 @@ main {
   height: 180px;
   object-fit: contain;
   background-color: rgba(0, 0, 0, 0.5254901961);
+  border: 0.25rem solid #00ff3c;
+  border-radius: 1rem;
 }
 .main-contenedores-computadoras-completo .main-contenedores-computadoras h4 {
   color: #ffffff;
